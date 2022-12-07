@@ -1,0 +1,61 @@
+body {
+  background: seashell;
+  height: 100%;
+  font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue',
+    Helvetica, Arial, 'Lucida Grande', sans-serif;
+}
+#top{
+    border: solid 2px black;
+    border-radius: 5px;\
+    background-color:pink;
+    line-height: 50px;
+}
+.wrapper {
+  width: 800px;
+  margin: 30px auto;
+  color: black;
+  text-align: center;
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  font-size: 2.6em;
+  text-transform: uppercase;
+}
+
+#seconds,
+#tens {
+  font-size: 2em;
+  border: 5px;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+}
+
+button {
+  border-radius: 5px;
+  color: black;
+  border: solid 1px black;
+  cursor: pointer;
+  font-size: 1em;
+  padding: 18px ;
+  width: 180px;
+  margin: 10px;
+  outline: none;
+  &:hover {
+    @include transition;
+    background: white;
+    border: solid 1px white;
+    color: #ffa600;
+  }
+}
+#button-start
+{background: forestgreen;}
+#button-stop
+{background: red;}
+#button-reset
+{background: lightblue;}
+
